@@ -37,10 +37,13 @@ function timeConversion(s) {
     if (hour < 12 && timeIndicator === 'PM') {
         hour = hour + 12
         return (`${hour}:${s.slice(3,-2)}`)
+    } else if (hour < 12 && timeIndicator === 'AM') {
+        return (`${s.slice(0,-2)}`)
     } else if (hour === 12 && timeIndicator === 'AM') {
-        return (`00:${s.slice(2, -2)}`)
+        hour = hour - 12
+        return (`00:${s.slice(3,-2)}`)
     } else if (hour === 12 && timeIndicator === 'PM') {
-        return (`12:${s.slice(2, -2)}`)
+        return (s.slice(0, -2))
     }
     // My Code Ends Here
 }
