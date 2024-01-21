@@ -179,36 +179,41 @@ All input times are valid.
 ```
 19:05:34
 ```
-Task 3 Not Done Yet
 
-Failed the following tests:
+### TASK 4: Fizz Buzz
+Certainly! Here's the question that would lead to the provided code:
 
-Input (stdin)
-12:40:22AM
-Expected Output
-00:40:22
+**Question:**
 
-Input (stdin)
-06:40:03AM
-Expected Output
-06:40:03
+You are tasked with writing a program that performs the FizzBuzz operation. The program should take an integer `n` as input and print the numbers from 1 to `n`. However, for multiples of 3, print "Fizz" instead of the number. For multiples of 5, print "Buzz". For numbers that are multiples of both 3 and 5, print "FizzBuzz". Write a function `fizzBuzz` to achieve this.
 
-Input (stdin)
-12:05:39AM
-Expected Output
-00:05:39
+**Input:**
 
-Input (stdin)
-12:45:54PM
-Expected Output
-12:45:54
+- A single integer `n` (1 <= n <= 100)
 
-Input (stdin)
-04:59:59AM
-Expected Output
-04:59:59
+**Output:**
 
-Input (stdin)
-12:00:00AM
-Expected Output
-00:00:00
+- Print the numbers from 1 to `n` based on the FizzBuzz rules mentioned above.
+
+**Function Signature:**
+
+```javascript
+function fizzBuzz(n) {
+    // Write your code here
+    // ...
+}
+```
+
+**Example:**
+
+```plaintext
+Input:
+5
+
+Output:
+1
+2
+Fizz
+4
+Buzz
+```
