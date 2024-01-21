@@ -131,3 +131,84 @@ Consider the numbers 1, 2, 3, 4, and 5. Calculate the following sums using four 
 - Sum everything except 3, resulting in 1 + 2 + 4 + 5 = 12.
 - Sum everything except 4, resulting in 1 + 2 + 3 + 5 = 11.
 - Sum everything except 5, resulting in 1 + 2 + 3 + 4 = 10.
+
+---
+
+### TASK 3: Time Conversion
+
+**Given a time in 12-hour AM/PM format, your task is to convert it to military (24-hour) time.**
+
+**Note:**
+
+- 12:00:00 AM on a 12-hour clock is equivalent to 00:00:00 on a 24-hour clock.
+- 12:00:00 PM on a 12-hour clock is equivalent to 12:00:00 on a 24-hour clock.
+
+**Example:**
+
+```python
+s = '12:01:00PM'
+# Expected Output: '12:01:00'
+
+s = '12:01:00AM'
+# Expected Output: '00:01:00'
+```
+
+**Function Description:**
+Complete the `timeConversion` function in the editor below. It should return a new string representing the input time in 24-hour format.
+
+**Function Signature:**
+
+```python
+def timeConversion(s: str) -> str:
+```
+
+**Input Format:**
+A single string `s` that represents a time in 12-hour clock format (i.e., hh:mm:ss AM or hh:mm:ss PM).
+
+**Constraints:**
+All input times are valid.
+
+**Sample Input:**
+
+```
+07:05:34PM
+```
+
+**Sample Output:**
+
+```
+19:05:34
+```
+Task 3 Not Done Yet
+
+Failed the following tests:
+
+Input (stdin)
+12:40:22AM
+Expected Output
+00:40:22
+
+Input (stdin)
+06:40:03AM
+Expected Output
+06:40:03
+
+Input (stdin)
+12:05:39AM
+Expected Output
+00:05:39
+
+Input (stdin)
+12:45:54PM
+Expected Output
+12:45:54
+
+Input (stdin)
+04:59:59AM
+Expected Output
+04:59:59
+
+Input (stdin)
+12:00:00AM
+Expected Output
+00:00:00
