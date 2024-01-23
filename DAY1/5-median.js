@@ -1,8 +1,6 @@
 function calculateMedian(arr) {
-    let newArr = arr.sort();
+    let newArr = arr.sort((a, b) => a - b);
     let n = parseInt(newArr.length/2)
-    console.log(newArr)
-    console.log(n)
     if (newArr.length % 2 === 0) {
         // Test for Even Number of Elements in the Array
         return ((newArr[n - 1] + newArr[n])/2) 

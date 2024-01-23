@@ -222,6 +222,3 @@ Buzz
 ### TASK 5: FIND MEDIAN
 
 Write a JavaScript function that calculates the median of an array of numbers
-
-**_Task 5 Not Yet Completed_**
-**\_The sort is not working**
