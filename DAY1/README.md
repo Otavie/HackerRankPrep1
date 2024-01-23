@@ -181,6 +181,7 @@ All input times are valid.
 ```
 
 ### TASK 4: Fizz Buzz
+
 Certainly! Here's the question that would lead to the provided code:
 
 **Question:**
@@ -199,8 +200,8 @@ You are tasked with writing a program that performs the FizzBuzz operation. The 
 
 ```javascript
 function fizzBuzz(n) {
-    // Write your code here
-    // ...
+  // Write your code here
+  // ...
 }
 ```
 
@@ -217,3 +218,10 @@ Fizz
 4
 Buzz
 ```
+
+### TASK 5: FIND MEDIAN
+
+Write a JavaScript function that calculates the median of an array of numbers
+
+**_Task 5 Not Yet Completed_**
+**\_The sort is not working**
